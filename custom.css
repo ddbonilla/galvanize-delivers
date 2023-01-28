@@ -33,6 +33,19 @@
     text-decoration: none;
 }
 
+span {
+    color: rgb(212, 56, 108);
+}
+
+h5 {
+    color: rgb(212, 56, 108);
+}
+
+p {
+    display: block;
+    text-align: left;
+}
+
 @media (max-width: 768px) {
     .hero {
         min-height: 50vh;
