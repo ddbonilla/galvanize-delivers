@@ -44,6 +44,7 @@ h5 {
 p {
     display: block;
     text-align: left;
+    font-size:small;
 }
 
 @media (max-width: 768px) {
@@ -53,4 +54,37 @@ p {
     h1 {
         font-size: calc(1.525rem + 3.3vw);
     }
+}
+
+.footer {
+    height: 100px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer h6 {
+    font-size: smaller;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.footer-bottom {
+    color: #cee0f2;
+    background-color: rgb(4, 46, 197);
+    padding: 40px;
+
+}
+
+.footer-bottom p.pull-left {
+    padding-top: 6px;
+    font-size: 0.75em;
+}
+
+#columns-3 {
+    margin-bottom: 50px;
 }
